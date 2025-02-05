@@ -4,7 +4,7 @@ requires = ["setuptools"]
 [project]
 name = "sparkfun_qwiic_pca9685"
 version = "0.9.1"
-description = long_description
+description = "Sparkfun Electronics Qwiic PCA9685 Package"
 readme = "DESCRIPTION.rst"
 
 authors = [{name="Sparkfun Electronics", email="info@sparkfun.com"}]

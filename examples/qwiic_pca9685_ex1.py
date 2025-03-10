@@ -5,7 +5,7 @@ import sys
 
 def runExample():
 
-	print("\nSparkFun BME280 Sensor  Example 1\n")
+	print("\nSparkFun PCA9685 Sensor  Example 1\n")
 	mySensor = qwiic_pca9685.QwiicPCA9685()
 
 	if mySensor.is_connected() == False:

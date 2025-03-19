@@ -31,7 +31,7 @@ New to qwiic? Take a look at the entire [SparkFun qwiic ecosystem](https://www.s
 
 This Python package supports the following SparkFun qwiic products on Python, MicroPython and Circuit python. 
 
-* [SparkFun PWM Controller Sensor - PCA9685](https://www.sparkfun.com/products/15316)
+* [SparkFun PWM Controller - PCA9685](https://www.sparkfun.com/products/15316)
 
 ### Supported Platforms
 
@@ -117,7 +117,7 @@ import sys
 
 def runExample():
 
-	print("\nSparkFun BME280 Sensor  Example 1\n")
+	print("\nSparkFun PCA Example 1\n")
 	mySensor = qwiic_pca9685.QwiicPCA9685()
 
 	if mySensor.is_connected() == False:
